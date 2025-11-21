@@ -2,12 +2,12 @@ export const items = [
 	{
 		id: 1,
 		name: "First Memory",
-		modelPath: "/special-items/item-1.glb",
-		position: { 
-			x: -4, 
-			y: 0, 
-			z: 0 },
-		scale: 1,
+		modelPath: "/special-items/1_treasure_map.glb",
+		// position: { 
+		// 	x: -4, 
+		// 	y: 0, 
+		// 	z: 0 },
+		// scale: 1,
 		date: 20220618,
 		dialogue: "It was our first DM ever. \n"
 	},
