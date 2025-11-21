@@ -2,7 +2,7 @@ export const items = [
 	{
 		id: 1,
 		name: "First Memory",
-		modelPath: "/public/special-items/item-1.glb",
+		modelPath: "/special-items/item-1.glb",
 		position: { 
 			x: -4, 
 			y: 0, 
@@ -14,7 +14,7 @@ export const items = [
 	{
 		id: 2,
 		name: "Second Memory",
-		modelPath: "/public/special-items/item-2.glb",
+		modelPath: "/special-items/item-2.glb",
 		position: { 
 			x: 4, 
 			y: 0, 
@@ -26,7 +26,7 @@ export const items = [
 	{
 		id: 3,
 		name: "Third Memory",
-		modelPath: "/public/special-items/item-3.glb",
+		modelPath: "/special-items/item-3.glb",
 		position: { 
 			x: -3, 
 			y: 0, 
@@ -38,7 +38,7 @@ export const items = [
 		{
 		id: 4,
 		name: "Fourth Memory",
-		modelPath: "/public/special-items/item-4.glb",
+		modelPath: "/special-items/item-4.glb",
 		position: { 
 			x: 3, 
 			y: 0, 
@@ -50,7 +50,7 @@ export const items = [
 		{
 		id: 5,
 		name: "Fifth Memory",
-		modelPath: "/public/special-items/item-5.glb",
+		modelPath: "/special-items/item-5.glb",
 		position: { 
 			x: 0, 
 			y: 0, 
@@ -62,7 +62,7 @@ export const items = [
 	{
 		id: 6,
 		name: "Sixth Memory",
-		modelPath: "/public/special-items/item-6.glb",
+		modelPath: "/special-items/item-6.glb",
 		position: { 
 			x: 0, 
 			y: 0, 
