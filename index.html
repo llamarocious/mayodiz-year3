@@ -2,14 +2,29 @@
 <html lang="en">
   <head>
     <meta charset="UTF-8" />
-    <link rel="icon" type="image/svg+xml" href="/vite.svg" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Anniversary Gift</title>
-    <link rel="stylesheet" href="/src/style.css"/>
+    <link rel="stylesheet" href="/src/style.css" />
   </head>
   <body>
-    <div id="root"></div>
     <canvas class="threejs"></canvas>
+    
+    <!-- Dialogue Overlay -->
+    <div id="dialogue-overlay" class="dialogue-overlay hidden">
+      <div class="dialogue-box">
+        <p id="dialogue-text" class="dialogue-text"></p>
+        <button id="dialogue-btn" class="dialogue-btn">Continue</button>
+      </div>
+    </div>
+    
+    <!-- Found Items Counter -->
+    <div id="counter" class="counter">
+      <span>Items Found: <span id="found-count">0</span>/<span id="total-items">3</span></span>
+      <div class="progress-bar">
+        <div id="progress-fill" class="progress-fill"></div>
+      </div>
+    </div>
+
     <script type="module" src="/src/main.js"></script>
   </body>
 </html>
