@@ -11,12 +11,13 @@ export const items = [
 	{
 		id: 2,
 		name: "Second Memory",
-		modelPath: "/models/special-items/pager_millennium.glb",
+		modelPath: "/models/special-items/motorola_advisor.glb",
 		position: { 
-			x: 1, 
-			y: 0, 
-			z: 0},
-		scale: 2,
+			x: -1, 
+			y: 1.1, 
+			z: 1},
+		rotation: { x: 0, y: 45, z: 0, units: "deg" },
+		scale: 3,
 		date: 2022,
 		dialogue: "Something about the memory - item 2"
 	},
@@ -25,10 +26,15 @@ export const items = [
 		name: "Third Memory",
 		modelPath: "/models/special-items/red-pin.glb",
 		position: { 
-			x: 0, 
-			y: 0, 
-			z: 0 },
-		scale: 3,
+			x: -0.5, 
+			y: 1.6, 
+			z: -1.25 },
+		scale: {
+			x: 3,
+			y: 3,
+			z: 3
+		},
+		rotation: { x: 45, y: 0, z: 0, units: "deg" },
 		date: 2022,
 		dialogue: "Something about the memory - item 3"
 	},
